@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+import { test, expect } from "@playwright/test";
 
 
 test('Another Way End to End Automation', async ({ page }) => {

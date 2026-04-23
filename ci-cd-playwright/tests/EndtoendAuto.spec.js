@@ -1,5 +1,5 @@
 import { faker } from "@faker-js/faker";
-const { test, expect } = require("@playwright/test");
+import { test, expect } from "@playwright/test";
 
 test("newtest", async ({ page }) => {
     const productName = "ZARA COAT 3";
