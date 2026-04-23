@@ -1,4 +1,4 @@
-const { el } = require("@faker-js/faker");
+import { faker } from "@faker-js/faker";
 const { test, expect } = require("@playwright/test");
 
 test("newtest", async ({ page }) => {
